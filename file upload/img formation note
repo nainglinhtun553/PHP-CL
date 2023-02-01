@@ -1,0 +1,12 @@
+
+			// အောက်ပါcode ရဲ့ ဆိုလိုခြင်းက userprofile ဆိုတဲ့ upload box ထဲမှာ ထည့်လိုက်တဲ့ information ထဲမှာပါတဲ့ name ကို select လုပ်ထားခြင်း ဖြစ်သည်။
+
+			$imgName=$_FILES['userProfile']['name'];
+			$imgTem=$_FILES['userProfile']['tmp_name'];
+			$imgSize=$_FILES['userProfile']['size'];
+
+			print_r("your image name is"."&nbsp;".$imgName);
+			echo "<br>";
+			print_r("your image Tem path is"."&nbsp;".$imgTem);
+			echo "<br>";
+			print_r("your image size is "."&nbsp;".$imgSize);
